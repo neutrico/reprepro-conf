@@ -1,0 +1,23 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.10.21
+#
+####################################################################
+# Template:
+
+# Name:
+# IncomingDir:
+# TempDir:
+# Allow:
+# Default
+# Multiple:
+# Permit
+# Cleanup:
+
+Name: default
+IncomingDir: /var/spool/reprepro/incoming
+TempDir: /var/tmp
+Multiple: yes
+Cleanup: on_deny on_error

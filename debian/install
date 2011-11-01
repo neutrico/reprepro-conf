@@ -1,0 +1,4 @@
+distributions	etc/reprepro
+incoming	etc/reprepro
+options		etc/reprepro
+reprepro.sh	etc/profile.d
