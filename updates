@@ -1,5 +1,5 @@
 Name: ubuntu-oneiric-update
 Method: http://pl.archive.ubuntu.com/ubuntu/
 Components: main
-Architectures: amd64 source
+Architectures: amd64
 FilterFormula: Priority (==required)
