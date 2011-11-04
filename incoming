@@ -17,7 +17,7 @@
 # Cleanup:
 
 Name: default
-IncomingDir: /var/spool/reprepro/incoming
+IncomingDir: /srv/ppa/incoming
 TempDir: /var/tmp
 Multiple: yes
 Cleanup: on_deny on_error
