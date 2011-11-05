@@ -1,2 +1,2 @@
-REPREPRO_BASE_DIR=/usr/share/reprepro/
+REPREPRO_BASE_DIR=/var/lib/reprepro/
 REPREPRO_CONFIG_DIR=/etc/reprepro/
