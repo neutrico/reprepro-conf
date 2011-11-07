@@ -8,7 +8,7 @@
 
 dbdir /var/lib/reprepro
 logdir /var/log/reprepro
-outdir /srv/ppa
+outdir /var/cache/reprepro
 ignore undefinedtarget
 ask-passphrase
 verbose
