@@ -1,0 +1,14 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.10.21
+#
+####################################################################
+
+dbdir /var/lib/reprepro/ubuntu
+logdir /var/log/reprepro
+outdir /var/cache/reprepro/ubuntu
+ignore undefinedtarget
+ask-passphrase
+verbose

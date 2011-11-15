@@ -1,0 +1,10 @@
+Name: debian-squeeze-update
+Method: http://ftp.vectranet.pl/debian/
+Components: main contrib non-free
+Architectures: amd64
+
+Name: debian-sid-update
+Method: http://ftp.vectranet.pl/debian/
+Components: main contrib non-free
+Architectures: amd64
+

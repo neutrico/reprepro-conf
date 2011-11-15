@@ -6,9 +6,9 @@
 #
 ####################################################################
 
-dbdir /var/lib/reprepro
+dbdir /var/lib/reprepro/debian
 logdir /var/log/reprepro
-outdir /var/cache/reprepro
+outdir /var/cache/reprepro/debian
 ignore undefinedtarget
 ask-passphrase
 verbose
