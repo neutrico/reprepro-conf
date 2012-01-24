@@ -8,7 +8,8 @@
 
 dbdir /var/lib/reprepro/debian
 logdir /var/log/reprepro
-outdir /var/cache/reprepro/debian
+# outdir /var/cache/reprepro/debian
+outdir /media/Respository/debian
 ignore undefinedtarget
 ask-passphrase
 verbose
