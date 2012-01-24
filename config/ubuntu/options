@@ -8,7 +8,6 @@
 
 dbdir /var/lib/reprepro/ubuntu
 logdir /var/log/reprepro
-#outdir /var/cache/reprepro/ubuntu
 outdir /media/Repository/ubuntu
 ignore undefinedtarget
 ask-passphrase
