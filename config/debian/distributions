@@ -19,6 +19,7 @@ Description: Personal Package Archives for Debian
 Architectures: i386 amd64 source
 Components: main non-free
 Update: debian-squeeze-update
+SignWith: Yes
 Log: debian-squeeze.log
 
 # devel
@@ -31,4 +32,5 @@ Description: Personal Package Archives for Debian
 Architectures: i386 amd64 source
 Components: main non-free
 Update: debian-sid-update
+SignWith: Yes
 Log: debian-sid.log

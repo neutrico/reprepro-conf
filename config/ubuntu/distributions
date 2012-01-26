@@ -18,6 +18,7 @@ Description: Personal Package Archives for Ubuntu
 Architectures: i386 amd64 source
 Components: main restricted universe multiverse non-free
 Update: ubuntu-oneiric-update
+SignWith: Yes
 Log: ubuntu-oneiric.log
 
 # devel 
@@ -29,5 +30,6 @@ Description: Personal Package Archives for Ubuntu
 Architectures: i386 amd64 source
 Components: main restricted universe multiverse non-free
 Update: ubuntu-precise-update
+SignWith: Yes
 Log: ubuntu-precise.log
 
