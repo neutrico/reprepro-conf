@@ -1,9 +1,40 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.11.03
+#
+
+# Available options:
+#
+# Name
+# Method
+# Fallback
+# Config
+# From
+# Suite
+# Components
+# Architectures
+# UDebComponents
+# VerifyRelease
+# IgnoreRelease
+# Flat
+# IgnoreHashes
+# FilterFormula
+# FilterList
+# FilterSrcList
+# ListHook
+# ListShellHook
+# DownloadListsAs
+
 Name: ubuntu-oneiric-update
 Method: http://pl.archive.ubuntu.com/ubuntu/
 Components: main restricted universe multiverse
 Architectures: amd64
+IgnoreRelease: Yes
 
 Name: ubuntu-precise-update
 Method: http://pl.archive.ubuntu.com/ubuntu/
 Components: main restricted universe multiverse
 Architectures: amd64
+IgnoreRelease: Yes

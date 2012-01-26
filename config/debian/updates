@@ -1,10 +1,42 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.11.03
+#
+
+# Available options:
+#
+# Name
+# Method
+# Fallback
+# Config
+# From
+# Suite
+# Components
+# Architectures
+# UDebComponents
+# VerifyRelease
+# IgnoreRelease
+# Flat
+# IgnoreHashes
+# FilterFormula
+# FilterList
+# FilterSrcList
+# ListHook
+# ListShellHook
+# DownloadListsAs
+
 Name: debian-squeeze-update
 Method: http://ftp.vectranet.pl/debian/
-Components: main contrib non-free
+Components: main non-free
+# contrib
 Architectures: amd64
+IgnoreRelease: Yes
 
 Name: debian-sid-update
 Method: http://ftp.vectranet.pl/debian/
-Components: main contrib non-free
+Components: main non-free
+# contrib
 Architectures: amd64
-
+IgnoreRelease: Yes
