@@ -33,6 +33,7 @@ Components: main non-free
 # contrib
 Architectures: amd64
 IgnoreRelease: Yes
+FilterList: install blacklist
 
 Name: debian-sid-update
 Method: http://ftp.vectranet.pl/debian/
@@ -40,3 +41,4 @@ Components: main non-free
 # contrib
 Architectures: amd64
 IgnoreRelease: Yes
+FilterList: install blacklist
