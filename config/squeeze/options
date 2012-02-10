@@ -1,0 +1,14 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.10.21
+#
+####################################################################
+
+dbdir /var/lib/reprepro/squeeze
+logdir /var/log/reprepro
+outdir /media/Respository/debian/squeeze
+ignore undefinedtarget
+ask-passphrase
+verbose

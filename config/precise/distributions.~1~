@@ -1,0 +1,35 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.11.03
+#
+####################################################################
+#
+# Ubuntu
+#
+
+# stable
+Codename: oneiric
+Version: 11.04
+Origin: Marcin Antczak <marcin.antczak@neutrico.pl>
+Label: Personal Package Archives for Ubuntu
+Description: Personal Package Archives for Ubuntu
+Architectures: i386 amd64 source
+Components: main restricted universe multiverse non-free
+Update: ubuntu-oneiric-update
+SignWith: Yes
+Log: ubuntu-oneiric.log
+
+# devel 
+Codename: precise
+Version: 12.04
+Origin: Marcin Antczak <marcin.antczak@neutrico.pl>
+Label: Personal Package Archives for Ubuntu
+Description: Personal Package Archives for Ubuntu
+Architectures: i386 amd64 source
+Components: main restricted universe multiverse non-free
+Update: ubuntu-precise-update
+SignWith: Yes
+Log: ubuntu-precise.log
+

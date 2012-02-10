@@ -1,0 +1,23 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.11.03
+#
+####################################################################
+#
+# Debian
+#
+
+# devel
+Codename: sid
+Suite: unstable
+Version: 7.00
+Origin: Marcin Antczak <marcin.antczak@neutrico.pl>
+Label: Personal Package Archives for Debian
+Description: Personal Package Archives for Debian
+Architectures: i386 amd64 source
+Components: main non-free
+Update: debian-sid-update
+SignWith: Yes
+Log: debian-sid.log

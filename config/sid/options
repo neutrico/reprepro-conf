@@ -1,0 +1,14 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2011.10.21
+#
+####################################################################
+
+dbdir /var/lib/reprepro/sid
+logdir /var/log/reprepro
+outdir /media/Respository/debian/sid
+ignore undefinedtarget
+ask-passphrase
+verbose
