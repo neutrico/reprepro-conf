@@ -8,7 +8,7 @@
 
 dbdir /var/lib/reprepro/squeeze
 logdir /var/log/reprepro
-outdir /media/Respository/debian/squeeze
+outdir /media/Repository/debian/squeeze
 ignore undefinedtarget
 ask-passphrase
 verbose

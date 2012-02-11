@@ -8,7 +8,7 @@
 
 dbdir /var/lib/reprepro/sid
 logdir /var/log/reprepro
-outdir /media/Respository/debian/sid
+outdir /media/Repository/debian/sid
 ignore undefinedtarget
 ask-passphrase
 verbose
