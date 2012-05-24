@@ -6,9 +6,9 @@
 #
 ####################################################################
 
-dbdir /var/lib/reprepro/squeeze
+dbdir /var/lib/reprepro/precise
 logdir /var/log/reprepro
-outdir /media/Backup/debian/squeeze
+outdir /media/Backup/ubuntu/precise
 ignore undefinedtarget
 ask-passphrase
 verbose

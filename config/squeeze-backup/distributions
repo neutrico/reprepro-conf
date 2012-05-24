@@ -18,6 +18,6 @@ Label: Personal Package Archives for Debian
 Description: Personal Package Archives for Debian
 Architectures: i386 amd64 source
 Components: main non-free
-Update: debian-squeeze-update
+Update: debian-squeeze-restore
 SignWith: Yes
 Log: debian-squeeze.log

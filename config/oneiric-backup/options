@@ -6,9 +6,9 @@
 #
 ####################################################################
 
-dbdir /var/lib/reprepro/squeeze
+dbdir /var/lib/reprepro/oneiric
 logdir /var/log/reprepro
-outdir /media/Backup/debian/squeeze
+outdir /media/Backup/ubuntu/oneiric
 ignore undefinedtarget
 ask-passphrase
 verbose

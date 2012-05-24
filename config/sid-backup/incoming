@@ -5,10 +5,19 @@
 # 2011.10.21
 #
 ####################################################################
+# Template:
 
-dbdir /var/lib/reprepro/squeeze
-logdir /var/log/reprepro
-outdir /media/Backup/debian/squeeze
-ignore undefinedtarget
-ask-passphrase
-verbose
+# Name:
+# IncomingDir:
+# TempDir:
+# Allow:
+# Default
+# Multiple:
+# Permit
+# Cleanup:
+
+Name: default
+IncomingDir: /srv/ppa/incoming
+TempDir: /var/tmp
+Multiple: yes
+Cleanup: on_deny on_error

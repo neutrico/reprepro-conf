@@ -6,9 +6,9 @@
 #
 ####################################################################
 
-dbdir /var/lib/reprepro/squeeze
+dbdir /var/lib/reprepro/sid
 logdir /var/log/reprepro
-outdir /media/Backup/debian/squeeze
+outdir /media/Repository/debian/sid
 ignore undefinedtarget
 ask-passphrase
 verbose

@@ -1,0 +1,36 @@
+####################################################################
+#
+# (c) 2011 Marcin Antczak <marcin.antczak@neutrico.pl> 
+#
+# 2012.01.26
+#
+
+# Available options:
+#
+# Name
+# Method
+# Fallback
+# Config
+# From
+# Suite
+# Components
+# Architectures
+# UDebComponents
+# VerifyRelease
+# IgnoreRelease
+# Flat
+# IgnoreHashes
+# FilterFormula
+# FilterList
+# FilterSrcList
+# ListHook
+# ListShellHook
+# DownloadListsAs
+
+Name: debian-squeeze-restore
+Method: file:///media/Backup/debian/squeeze/
+Components: main non-free
+# contrib
+Architectures: amd64
+IgnoreRelease: Yes
+FilterList: install blacklist
