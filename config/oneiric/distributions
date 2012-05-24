@@ -20,3 +20,15 @@ Components: main restricted universe multiverse non-free
 Update: ubuntu-oneiric-update
 SignWith: Yes
 Log: ubuntu-oneiric.log
+
+# stable
+Codename: oneiric-restore
+Version: 11.04
+Origin: Marcin Antczak <marcin.antczak@neutrico.pl>
+Label: Personal Package Archives for Ubuntu
+Description: Personal Package Archives for Ubuntu
+Architectures: i386 amd64 source
+Components: main restricted universe multiverse non-free
+Update: ubuntu-oneiric-backup
+SignWith: Yes
+Log: ubuntu-oneiric.log

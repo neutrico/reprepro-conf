@@ -33,3 +33,10 @@ Components: main restricted universe multiverse
 Architectures: amd64
 IgnoreRelease: Yes
 FilterList: install blacklist
+
+Name: ubuntu-oneiric-backup
+Method: file:///media/Backup/ubuntu/oneiric
+Components: main restricted universe multiverse
+Architectures: amd64
+IgnoreRelease: Yes
+FilterList: install blacklist
